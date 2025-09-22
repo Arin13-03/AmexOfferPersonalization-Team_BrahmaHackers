@@ -1,6 +1,6 @@
 # 📊 Offer Ranking System for Customer Engagement  
 
-**Hackathon:** *American Express Campus Challenge 2025 (Decison Science Track)*  
+**Hackathon:** *American Express Campus Challenge 2025 (Decision Science Track)*  
 **Team:** *Brahma_Hackers*  
 
 ---
@@ -15,7 +15,7 @@ Most models predict clicks independently, missing the bigger picture: *ranking t
 We built a **learning-to-rank system** that:  
 
 1. **Captures Real Behavior**  
-   - Smart sampling of non-clicked offers (no synthetic oversampling).  
+   - Smart sampling (5:1 negative sampling) of non-clicked offers (no synthetic oversampling).  
    - Preserved authentic user interactions.  
 
 2. **Extracts Powerful Signals**  
@@ -36,10 +36,10 @@ We built a **learning-to-rank system** that:
 ## 🧩 Feature Types  
 
 - **Temporal Features**  
-  - Offer recency, age of offer, daily/hourly/weekly activity patterns and decaying weights.  
+  - Offer recency, age of offer, daily/hourly/weekly activity patterns, and decaying weights.  
 
 - **Behavioral Features**  
-  - User CTR history, offer fatigue/delay, impression gaps and preferences.  
+  - User CTR history, offer fatigue/delay, impression gap, and preferences.  
 
 - **Semantic Features**  
   - TF-IDF embeddings on offer description, offer codes, and categories.  
@@ -54,7 +54,7 @@ We built a **learning-to-rank system** that:
 
 | Setup                           | MAP@7 |
 |---------------------------------|-------|
-| Baseline (naive ranker)         | 0.18  |
+| Baseline model                  | 0.21  |
 | + Feature Engineering           | 0.44  |
 | + Smart Sampling + Tuning       | **0.53**  |
 
@@ -85,3 +85,5 @@ We built a **learning-to-rank system** that:
 ---
 
 👥 *Developed by Team **Brahma_Hackers***  
+
+
