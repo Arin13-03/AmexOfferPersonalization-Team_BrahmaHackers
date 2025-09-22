@@ -15,7 +15,7 @@ Most models predict clicks independently, missing the bigger picture: *ranking t
 We built a **learning-to-rank system** that:  
 
 1. **Captures Real Behavior**  
-   - Smart sampling of non-clicked offers (no synthetic oversampling).  
+   - Smart sampling (5:1 negative sampling) of non-clicked offers (no synthetic oversampling).  
    - Preserved authentic user interactions.  
 
 2. **Extracts Powerful Signals**  
@@ -83,3 +83,4 @@ We built a **learning-to-rank system** that:
 ---
 
 👥 *Developed by Team **Brahma_Hackers***  
+
