@@ -31,6 +31,8 @@ We built a **learning-to-rank system** that:
 
 ---
 
+![Smart Negative Sampling Strategy](Assets\AmexGitPic.png)
+
 ## 🧩 Feature Types  
 
 - **Temporal Features**  
