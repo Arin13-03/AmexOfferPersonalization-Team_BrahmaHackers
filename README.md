@@ -29,10 +29,10 @@ We built a **learning-to-rank system** that:
    - Tuning: **Optuna hyperparameter search**  
    - Validation: Grouped folds to prevent leakage.  
 
+## Smart Negative Sampling Strategy
+<img width="1684" height="538" alt="Image" src="https://github.com/user-attachments/assets/c44e5b62-16f9-4ae2-9dcc-b60080f415ef" />
+
 ---
-
-![Smart Negative Sampling Strategy](Assets\AmexGitPic.png)
-
 ## 🧩 Feature Types  
 
 - **Temporal Features**  
@@ -85,5 +85,6 @@ We built a **learning-to-rank system** that:
 ---
 
 👥 *Developed by Team **Brahma_Hackers***  
+
 
 
