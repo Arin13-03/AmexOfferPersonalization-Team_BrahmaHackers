@@ -12,7 +12,7 @@ Most models predict clicks independently, missing the bigger picture: *ranking t
 ---
 
 ## 🔑 Our Strategy  
-We built a **learning-to-rank system** that:  
+We built a **learning-to-rank system** that is capable of doing the following:  
 
 1. **Captures Real Behavior**  
    - Smart sampling (5:1 negative sampling) of non-clicked offers (no synthetic oversampling).  
